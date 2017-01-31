@@ -1,0 +1,71 @@
+.about-main-page{
+	width: 100%;
+	
+
+}
+.company-name{
+	height: 300px;
+	background-color:orange;
+	/*border:1px solid black;*/
+}
+.company-name h1{
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+}
+.about-designer{
+	display: flex;
+	 justify-content: space-between;
+	/*border:1px solid black;*/
+}
+.details-about-designer{
+	width: 75%;
+} 
+.details-about-designer h2{
+	font-size: 30px;
+	text-transform: uppercase;
+	color: black;
+}
+.image-about-designer{
+	width: 25%;
+}
+.image-about-designer img{
+	margin-top: 50px;
+}
+.our-values{
+	height: 300px;
+	/*border:1px solid black;*/
+	background-color: #cccccc;
+	display: flex;
+	 justify-content: space-between;
+}
+.image-about-values{
+	width: 25%;
+}
+.image-about-values{
+	text-align: center;
+	margin-top:0px;
+}
+.details-about-values{
+	width: 75%;
+}
+.service-images{
+display: flex;
+justify-content: space-around;
+padding: 20px;
+}
+.service-images1{
+display: flex;
+justify-content: space-around;
+padding: 20px;
+}
+.portfolio-images{
+display: flex;
+justify-content: space-around;
+padding: 20px;
+}
+.portfolio-images1{
+display: flex;
+justify-content: space-around;
+padding: 20px;
+}
