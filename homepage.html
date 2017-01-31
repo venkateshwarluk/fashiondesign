@@ -11,56 +11,55 @@
   </head>
   <body>
     <div class="main-page ">
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
+        <nav class="navbar navbar-default nav-wrapper-custoum">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
 
-            <a class="navbar-brand" href="#"><img src="images/gift.png"></a>
-          </div>
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-           <ul class="nav navbar-nav ">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li> 
-            <li class="dropdown">
-              <a href="#" class="dropbtn">Designs</a>
-              <div class="dropdown-content">
-               <a href="#">Link 1</a>
-               <a href="#">Link 2</a>
-               <a href="#">Link 3</a>
-             </div>
-           </li>
-           <li class="dropdown">
-            <a href="#" class="dropbtn">Social Networks</a>
-            <div class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
+              <a class="navbar-brand" href="#"><img src="images/gift.png"></a>
             </div>
-          </li>
-          <li><a href="#">Contact Us</a></li>
-        </ul>
-      </div>
-      <ul class="nav navbar-nav navbar-right">
-        <div class="tooltip-icons">
-          <div class="icons">
-            <a href=""><img src="images/cart.png"></a>
-            <span class="icon-text"> shopping cart</span>
-          </div>
-          <p class="icons"><a href=""><img src="images/favorite (1).png"></a>
-            <span class="icon-text1 ">faviorte</span></p>
-          </div>
-        </ul>
-      </div>
-    </nav>
-    <div class="slider">
-      <div class="container col-lg-12 col-md-12 col-sm-12">
-        <br>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+             <ul class="nav navbar-nav ">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropbtn">Designs</a>
+                <div class="dropdown-content">
+                 <a href="#">Link 1</a>
+                 <a href="#">Link 2</a>
+                 <a href="#">Link 3</a>
+               </div>
+             </li>
+             <li class="dropdown">
+              <a href="#" class="dropbtn">Social Networks</a>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+          <div class="tooltip-icons">
+            <div class="icons">
+              <a href=""><img src="images/cart.png"></a>
+              <span class="icon-text"> shopping cart</span>
+            </div>
+            <p class="icons"><a href=""><img src="images/favorite (1).png"></a>
+              <span class="icon-text1 ">faviorte</span></p>
+            </div>
+          </ul>
+        </div>
+      </nav> <!-- Nav section ends -->
+      <!-- Slider section -->
+      <div class="slider">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
           <ol class="carousel-indicators">
@@ -96,83 +95,95 @@
           </a>
         </div>
       </div>
-    </div>
-    <div class="container">
-     <div class="row">
-      <div class="col-sm-12 ">
-        <div id="imaginary_containe"> 
-          <div class="input-group stylish-input-group">
-            <input type="text" class="form-control"  placeholder="Search" >
-            <span class="input-group-addon">
-              <button type="submit">
-                <span class="glyphicon glyphicon-search"></span>
-              </button>  
-            </span>
+
+        <!-- Search bar section -->
+      <!-- <div class="container">
+       <div class="row">
+        <div class="col-sm-12 ">
+          <div id="imaginary_containe">
+            <div class="input-group stylish-input-group">
+              <input type="text" class="form-control"  placeholder="Search" >
+              <span class="input-group-addon">
+                <button type="submit">
+                  <span class="glyphicon glyphicon-search"></span>
+                </button>
+              </span>
+            </div>
           </div>
         </div>
       </div>
+  </div> -->
+
+    <!-- products section -->
+    <div class=" products__section col-md-12" style="background-color:#efefef;padding:30px">
+      <div class="products_section_tabs" style="text-align:center">
+        <h3>Prdoucts</h3>
+        <div class="tabs_buttons">
+          <button type="button" name="button">ALL</button>
+          <button type="button" name="button">New</button>
+          <button type="button" name="button">Recomended</button>
+        </div>
+      </div>
+      <div class="middle-images col-md-3">
+        <img src="images/baby7.jpg" alt="Lights" >
+        <div class="overlay">
+          <div class="text">QUICK VIEW</div>
+        </div>
+            <p><strong><center>Product Name</strong></center>
+          <div class="rating">
+           <center> <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span></center>
+         </div>
+       </div>
+      <div class="middle-images col-md-3">
+        <img src="images/baby7.jpg" alt="Lights" >
+        <div class="overlay">
+            <div class="text">QUICK VIEW</div>
+            </div>
+            <p><strong><center>Product Name</strong></center>
+          <div class="rating">
+           <center> <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span></center>
+         </div>
+       </div>
+      <div class="middle-images col-md-3">
+        <img src="images/baby7.jpg" alt="Lights" >
+        <div class="overlay">
+            <div class="text">QUICK VIEW</div>
+            </div>
+            <p><strong><center>Product Name</strong></center>
+          <div class="rating">
+           <center> <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span></center>
+         </div>
+       </div>
+      <div class="middle-images col-md-3">
+        <img src="images/baby7.jpg" alt="Lights" >
+        <div class="overlay">
+            <div class="text">QUICK VIEW</div>
+            </div>
+            <p><strong><center>Product Name</strong></center>
+          <div class="rating">
+           <center> <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span></center>
+         </div>
+       </div>
     </div>
-  </div>
-  <div class="star-images">
-    <div class="middle-images col-md-3">
-      <img src="images/baby7.jpg" alt="Lights" >
-      <div class="overlay">
-          <div class="text">QUICK VIEW</div>
-          </div>
-      <p><strong><center>Product Name</strong></center>
-        <div class="rating">
-         <center> <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span></center>
-       </div>
-     </div>
 
-     <div class="middle-images col-md-3">
-      <img src="images/baby7.jpg" alt="Lights" >
-      <div class="overlay">
-          <div class="text">QUICK VIEW</div>
-          </div>
-      <p><strong><center>Product Name</strong></center>
-       <div class="rating">
-         <center><span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span></center> 
-       </div>
-     </div>
-     <div class="middle-images col-md-3">
-      <img src="images/baby7.jpg" alt="Lights" >
-      <div class="overlay">
-          <div class="text">QUICK VIEW</div>
-          </div>
-      <p><strong><center>Product Name</strong></center>
-       <div class="rating">
-         <center> <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span></center>
-       </div>
-     </div>
-     <div class="middle-images col-md-3">
-      <img src="images/baby7.jpg" alt="Lights" >
-       <div class="overlay">
-          <div class="text">QUICK VIEW</div>
-          </div>
-      <p><strong><center>Product Name</strong></center>
-       <div class="rating">
-         <center> <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span></center>
-       </div>
-     </div>
-   </div>
+    <!-- Brand Logo section -->
+    <div class="brand_logo_section col-sm-12 col-md-12" style="background-color:red">
+      <div class="brand_logo_image col-md-3 col-sm-4 col-xs-12">
+        <img src="images/babies.jpg" class="img-circle  ">
+      </div>
+      <div class="brand_logo_image col-md-3 col-sm-4 col-xs-12">
+        <img src="images/babies.jpg" class="img-circle ">
+      </div>
+      <div class="brand_logo_image col-md-3 col-sm-4 col-xs-12">
+        <img src="images/babies.jpg" class="img-circle  ">
+      </div>
+      <div class="brand_logo_image col-md-3 col-sm-4 col-xs-12">
+        <img src="images/babies.jpg" class="img-circle  ">
+      </div>
+    </div>
 
- <div class=" row brand_logo_section">
-  <div class="brand_logo_image col-md-3 col-sm-4 col-xs-12">
-    <img src="images/babies.jpg" class="img-circle  ">
-  </div>
-  <div class="brand_logo_image col-md-3 col-sm-4 col-xs-12">
-    <img src="images/babies.jpg" class="img-circle ">
-  </div>
-  <div class="brand_logo_image col-md-3 col-sm-4 col-xs-12">
-    <img src="images/babies.jpg" class="img-circle  ">
-  </div>
-  <div class="brand_logo_image col-md-3 col-sm-4 col-xs-12">
-    <img src="images/babies.jpg" class="img-circle  ">
-  </div>
-  </div>
-</div>
-     <div class="footer col-lg-12 col-md-12 col-sm-">
+    <!-- footer Section -->
+    <div class="footer col-lg-12 col-md-12 col-sm-">
       <div class="sub-footer">
         <div class="footer-div">
           <ul>
@@ -232,7 +243,7 @@
         </div>
       </div>
       <div class="footer-logos">
-        <div class="footer-logo-text"> 
+        <div class="footer-logo-text">
           <h6>copy rights reserved</h6>
         </div>
         <div class="footer-logo-icons">
@@ -241,7 +252,7 @@
           <a href=""><img src="images/twitter.png"></a>
         </div>
       </div>
-    </div>
-  </div>
+    </div>  <!-- footer Section ends -->
+  </div><!-- margin-bottom Section ends -->
 </body>
 </html>
